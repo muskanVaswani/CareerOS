@@ -25,6 +25,9 @@ class Orchestrator:
             request=request
         )
         
+        state.metadata.workflow = "career_analysis"
+        state.metadata.current_agent = "ProfileAgent"
+        
         
         state = self.profile_agent.execute(state)
         
