@@ -1,0 +1,618 @@
+[
+  {
+    "id": "ai_engineer",
+    "title": "AI Engineer",
+    "description": "Designs, develops, deploys, and maintains AI-powered applications using machine learning, deep learning, large language models, and intelligent automation.",
+
+    "core_skills": [
+      "python",
+      "machine_learning",
+      "deep_learning",
+      "large_language_models",
+      "prompt_engineering",
+      "data_processing",
+      "model_deployment",
+      "api_development"
+    ],
+
+    "knowledge_areas": [
+      "statistics",
+      "linear_algebra",
+      "probability",
+      "natural_language_processing",
+      "computer_vision",
+      "generative_ai",
+      "software_engineering",
+      "mlops"
+    ],
+
+    "essential_tools": [
+      "python",
+      "pytorch",
+      "tensorflow",
+      "scikit_learn",
+      "hugging_face",
+      "langchain",
+      "llamaindex",
+      "fastapi",
+      "docker",
+      "git"
+    ],
+
+    "project_categories": [
+      "rag_systems",
+      "chatbots",
+      "ai_agents",
+      "computer_vision_applications",
+      "recommendation_systems",
+      "speech_ai"
+    ],
+
+    "assessment_skills": [
+      "python",
+      "machine_learning",
+      "deep_learning",
+      "problem_solving",
+      "system_design",
+      "model_deployment"
+    ],
+
+    "prerequisites": [
+      "programming_basics",
+      "python_basics",
+      "data_structures",
+      "statistics",
+      "linear_algebra"
+    ],
+
+    "recommended_certifications": [
+      "google_professional_machine_learning_engineer",
+      "aws_machine_learning_specialty",
+      "azure_ai_engineer_associate"
+    ]
+  },
+
+  {
+    "id": "machine_learning_engineer",
+    "title": "Machine Learning Engineer",
+    "description": "Builds, trains, optimizes, evaluates, and deploys machine learning models for production systems.",
+
+    "core_skills": [
+      "python",
+      "machine_learning",
+      "feature_engineering",
+      "data_preprocessing",
+      "model_evaluation",
+      "model_deployment",
+      "mlops"
+    ],
+
+    "knowledge_areas": [
+      "supervised_learning",
+      "unsupervised_learning",
+      "statistics",
+      "probability",
+      "optimization",
+      "feature_engineering"
+    ],
+
+    "essential_tools": [
+      "python",
+      "scikit_learn",
+      "tensorflow",
+      "pytorch",
+      "mlflow",
+      "docker",
+      "git",
+      "apache_airflow"
+    ],
+
+    "project_categories": [
+      "predictive_models",
+      "recommendation_systems",
+      "fraud_detection",
+      "classification",
+      "regression",
+      "forecasting"
+    ],
+
+    "assessment_skills": [
+      "machine_learning",
+      "statistics",
+      "feature_engineering",
+      "python",
+      "model_deployment"
+    ],
+
+    "prerequisites": [
+      "python_basics",
+      "statistics",
+      "linear_algebra",
+      "calculus",
+      "sql"
+    ],
+
+    "recommended_certifications": [
+      "google_professional_machine_learning_engineer",
+      "aws_machine_learning_specialty"
+    ]
+  },
+
+  {
+    "id": "data_scientist",
+    "title": "Data Scientist",
+    "description": "Uses statistical analysis, machine learning, and data visualization to extract actionable insights from data.",
+
+    "core_skills": [
+      "python",
+      "sql",
+      "statistics",
+      "machine_learning",
+      "data_analysis",
+      "data_visualization"
+    ],
+
+    "knowledge_areas": [
+      "exploratory_data_analysis",
+      "statistics",
+      "probability",
+      "business_analytics",
+      "feature_engineering",
+      "machine_learning"
+    ],
+
+    "essential_tools": [
+      "python",
+      "pandas",
+      "numpy",
+      "scikit_learn",
+      "jupyter",
+      "tableau",
+      "power_bi",
+      "sql"
+    ],
+
+    "project_categories": [
+      "business_analytics",
+      "predictive_analytics",
+      "customer_segmentation",
+      "dashboards",
+      "time_series_forecasting"
+    ],
+
+    "assessment_skills": [
+      "statistics",
+      "sql",
+      "machine_learning",
+      "data_analysis",
+      "business_thinking"
+    ],
+
+    "prerequisites": [
+      "python_basics",
+      "sql",
+      "statistics",
+      "basic_mathematics"
+    ],
+
+    "recommended_certifications": [
+      "google_data_analytics",
+      "ibm_data_science_professional_certificate"
+    ]
+  },
+
+  {
+    "id": "backend_developer",
+    "title": "Backend Developer",
+    "description": "Builds scalable server-side applications, APIs, databases, and business logic.",
+
+    "core_skills": [
+      "java",
+      "python",
+      "sql",
+      "api_development",
+      "database_design",
+      "authentication",
+      "system_design"
+    ],
+
+    "knowledge_areas": [
+      "rest_api",
+      "database_design",
+      "authentication",
+      "microservices",
+      "caching",
+      "software_architecture"
+    ],
+
+    "essential_tools": [
+      "spring_boot",
+      "fastapi",
+      "nodejs",
+      "postgresql",
+      "mysql",
+      "redis",
+      "docker",
+      "git"
+    ],
+
+    "project_categories": [
+      "rest_apis",
+      "authentication_systems",
+      "microservices",
+      "payment_systems",
+      "ecommerce_backend"
+    ],
+
+    "assessment_skills": [
+      "coding",
+      "database_design",
+      "api_development",
+      "system_design",
+      "problem_solving"
+    ],
+
+    "prerequisites": [
+      "programming_basics",
+      "object_oriented_programming",
+      "data_structures",
+      "sql"
+    ],
+
+    "recommended_certifications": [
+      "oracle_java_certification",
+      "aws_developer_associate"
+    ]
+  },
+
+  {
+    "id": "frontend_developer",
+    "title": "Frontend Developer",
+    "description": "Builds modern, responsive, accessible, and interactive web user interfaces.",
+
+    "core_skills": [
+      "html",
+      "css",
+      "javascript",
+      "typescript",
+      "react",
+      "responsive_design"
+    ],
+
+    "knowledge_areas": [
+      "dom",
+      "browser_rendering",
+      "accessibility",
+      "state_management",
+      "performance_optimization"
+    ],
+
+    "essential_tools": [
+      "react",
+      "nextjs",
+      "vite",
+      "tailwind_css",
+      "figma",
+      "git"
+    ],
+
+    "project_categories": [
+      "landing_pages",
+      "dashboards",
+      "admin_panels",
+      "portfolio_websites",
+      "ecommerce_ui"
+    ],
+
+    "assessment_skills": [
+      "javascript",
+      "react",
+      "css",
+      "responsive_design",
+      "problem_solving"
+    ],
+
+    "prerequisites": [
+      "html",
+      "css",
+      "javascript"
+    ],
+
+    "recommended_certifications": [
+      "meta_front_end_developer_professional_certificate"
+    ]
+  },
+
+  {
+    "id": "full_stack_developer",
+    "title": "Full Stack Developer",
+    "description": "Builds complete web applications across frontend, backend, databases, APIs, and deployment.",
+
+    "core_skills": [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "nodejs",
+      "api_development",
+      "database_design"
+    ],
+
+    "knowledge_areas": [
+      "frontend_development",
+      "backend_development",
+      "authentication",
+      "deployment",
+      "software_architecture"
+    ],
+
+    "essential_tools": [
+      "react",
+      "nodejs",
+      "expressjs",
+      "mongodb",
+      "postgresql",
+      "docker",
+      "git"
+    ],
+
+    "project_categories": [
+      "saas_platforms",
+      "social_media_apps",
+      "learning_platforms",
+      "booking_systems",
+      "ecommerce"
+    ],
+
+    "assessment_skills": [
+      "frontend_development",
+      "backend_development",
+      "database_design",
+      "deployment",
+      "problem_solving"
+    ],
+
+    "prerequisites": [
+      "html",
+      "css",
+      "javascript",
+      "programming_basics",
+      "sql"
+    ],
+
+    "recommended_certifications": [
+      "meta_full_stack_developer_professional_certificate"
+    ]
+  },
+
+  {
+    "id": "devops_engineer",
+    "title": "DevOps Engineer",
+    "description": "Automates software delivery, infrastructure provisioning, monitoring, and deployment pipelines.",
+
+    "core_skills": [
+      "linux",
+      "cloud_computing",
+      "ci_cd",
+      "docker",
+      "kubernetes",
+      "terraform"
+    ],
+
+    "knowledge_areas": [
+      "networking",
+      "cloud_architecture",
+      "automation",
+      "monitoring",
+      "infrastructure_as_code"
+    ],
+
+    "essential_tools": [
+      "docker",
+      "kubernetes",
+      "terraform",
+      "jenkins",
+      "github_actions",
+      "prometheus",
+      "grafana",
+      "aws"
+    ],
+
+    "project_categories": [
+      "ci_cd_pipelines",
+      "cloud_deployment",
+      "monitoring_systems",
+      "infrastructure_automation"
+    ],
+
+    "assessment_skills": [
+      "linux",
+      "docker",
+      "kubernetes",
+      "cloud_computing",
+      "automation"
+    ],
+
+    "prerequisites": [
+      "linux",
+      "networking",
+      "git",
+      "programming_basics"
+    ],
+
+    "recommended_certifications": [
+      "aws_devops_engineer_professional",
+      "certified_kubernetes_administrator"
+    ]
+  },
+
+  {
+    "id": "cloud_engineer",
+    "title": "Cloud Engineer",
+    "description": "Designs, deploys, secures, and manages cloud-native infrastructure and services.",
+
+    "core_skills": [
+      "cloud_computing",
+      "linux",
+      "networking",
+      "terraform",
+      "docker"
+    ],
+
+    "knowledge_areas": [
+      "cloud_architecture",
+      "identity_and_access_management",
+      "containers",
+      "virtualization",
+      "networking"
+    ],
+
+    "essential_tools": [
+      "aws",
+      "azure",
+      "google_cloud",
+      "terraform",
+      "docker",
+      "kubernetes"
+    ],
+
+    "project_categories": [
+      "cloud_infrastructure",
+      "serverless_applications",
+      "cloud_migration",
+      "high_availability_systems"
+    ],
+
+    "assessment_skills": [
+      "cloud_services",
+      "networking",
+      "security",
+      "infrastructure_design"
+    ],
+
+    "prerequisites": [
+      "linux",
+      "networking",
+      "programming_basics"
+    ],
+
+    "recommended_certifications": [
+      "aws_solutions_architect_associate",
+      "google_professional_cloud_architect",
+      "azure_administrator_associate"
+    ]
+  },
+
+  {
+    "id": "cybersecurity_engineer",
+    "title": "Cybersecurity Engineer",
+    "description": "Protects systems, applications, and networks through security engineering, monitoring, and incident response.",
+
+    "core_skills": [
+      "network_security",
+      "linux",
+      "ethical_hacking",
+      "security_testing",
+      "incident_response"
+    ],
+
+    "knowledge_areas": [
+      "cryptography",
+      "networking",
+      "operating_systems",
+      "web_security",
+      "risk_management"
+    ],
+
+    "essential_tools": [
+      "wireshark",
+      "burp_suite",
+      "metasploit",
+      "nmap",
+      "kali_linux",
+      "splunk"
+    ],
+
+    "project_categories": [
+      "penetration_testing",
+      "soc_projects",
+      "security_automation",
+      "threat_detection"
+    ],
+
+    "assessment_skills": [
+      "networking",
+      "linux",
+      "ethical_hacking",
+      "security_concepts"
+    ],
+
+    "prerequisites": [
+      "networking",
+      "linux",
+      "programming_basics"
+    ],
+
+    "recommended_certifications": [
+      "comptia_security_plus",
+      "certified_ethical_hacker",
+      "cissp"
+    ]
+  },
+
+  {
+    "id": "mobile_app_developer",
+    "title": "Mobile App Developer",
+    "description": "Builds Android and iOS applications with modern mobile architectures and user experiences.",
+
+    "core_skills": [
+      "kotlin",
+      "swift",
+      "flutter",
+      "react_native",
+      "api_integration",
+      "ui_design"
+    ],
+
+    "knowledge_areas": [
+      "android_development",
+      "ios_development",
+      "mobile_architecture",
+      "offline_storage",
+      "performance_optimization"
+    ],
+
+    "essential_tools": [
+      "android_studio",
+      "xcode",
+      "flutter",
+      "firebase",
+      "git"
+    ],
+
+    "project_categories": [
+      "ecommerce_apps",
+      "social_apps",
+      "healthcare_apps",
+      "education_apps",
+      "productivity_apps"
+    ],
+
+    "assessment_skills": [
+      "ui_development",
+      "api_integration",
+      "mobile_architecture",
+      "performance_optimization"
+    ],
+
+    "prerequisites": [
+      "programming_basics",
+      "object_oriented_programming"
+    ],
+
+    "recommended_certifications": [
+      "google_associate_android_developer",
+      "meta_react_native_professional_certificate"
+    ]
+  }
+]
