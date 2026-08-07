@@ -1,3 +1,4 @@
+from app.agents.skill_gap_agent import SkillGapAgent
 from app.agents.profile_agent import ProfileAgent
 from app.schemas.state.career_state import CareerState
 from app.schemas.career_goal import CareerGoal
@@ -8,6 +9,7 @@ from app.schemas.state.request import Request
 class Orchestrator:
     def __init__(self):
         self.profile_agent = ProfileAgent()
+        self.skill_gap_agent = SkillGapAgent()
         
     def run(self, user_input: str):
         career_goal = CareerGoal(
@@ -26,9 +28,11 @@ class Orchestrator:
         )
         
         state.metadata.workflow = "career_analysis"
+        
         state.metadata.current_agent = "ProfileAgent"
-        
-        
         state = self.profile_agent.execute(state)
+        
+        state.metadata.current_agent = "SkillGapAgent"
+        state = self.skill_gap_agent.execute(state)
         
         return state
