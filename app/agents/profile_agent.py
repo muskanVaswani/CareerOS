@@ -8,8 +8,12 @@ class ProfileAgent(BaseAgent):
         
         state.context.profile = Profile(
             name="Unknown",
-            target_role=state.request.career_goal.target_role
-             
+            target_role=state.request.career_goal.target_role,
+            skills=[
+                "python",
+                "git",
+                "api_development"
+            ]
         )
         
         return state
