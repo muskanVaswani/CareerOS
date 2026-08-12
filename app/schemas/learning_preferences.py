@@ -4,7 +4,7 @@ from pydantic import BaseModel
 class LearningPreferences(BaseModel):
     hours_per_week: int | None = None
     
-    target_duration: int | None = None
+    target_duration: str | None = None
     
     budget:float | None = None
     

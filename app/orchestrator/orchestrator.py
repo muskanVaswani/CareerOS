@@ -4,12 +4,14 @@ from app.schemas.state.career_state import CareerState
 from app.schemas.career_goal import CareerGoal
 from app.schemas.learning_preferences import LearningPreferences
 from app.schemas.state.request import Request
+from app.agents.roadmap_agent import RoadmapAgent
 
 
 class Orchestrator:
     def __init__(self):
         self.profile_agent = ProfileAgent()
         self.skill_gap_agent = SkillGapAgent()
+        self.roadmap_agent = RoadmapAgent()
         
     def run(self, user_input: str):
         career_goal = CareerGoal(
@@ -34,5 +36,9 @@ class Orchestrator:
         
         state.metadata.current_agent = "SkillGapAgent"
         state = self.skill_gap_agent.execute(state)
+        
+        state.metadata.current_agent = "RoadmapAgent"
+        state = self.roadmap_agent.execute(state) 
+        
         
         return state
